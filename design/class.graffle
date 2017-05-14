@@ -211,7 +211,7 @@
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc
 
-\f0\b\fs24 \cf0 TkoffPerformanceGroundRoll}</string>
+\f0\b\fs24 \cf0 LandingPerformanceGroundRoll}</string>
 						<key>VerticalPad</key>
 						<integer>0</integer>
 					</dict>
@@ -553,7 +553,7 @@ int getOver50ApproachSpdKts()\
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc
 
-\f0\b\fs24 \cf0 glidePerformance}</string>
+\f0\b\fs24 \cf0 GlidePerformance}</string>
 						<key>VerticalPad</key>
 						<integer>0</integer>
 					</dict>
@@ -2296,7 +2296,7 @@ int getAxisWindKts(int wind)\
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2017-05-14 23:08:31 +0000</string>
+	<string>2017-05-14 23:21:24 +0000</string>
 	<key>Modifier</key>
 	<string>Menai, Alex</string>
 	<key>NotesVisible</key>
@@ -2389,13 +2389,13 @@ int getAxisWindKts(int wind)\
 		<key>SidebarWidth</key>
 		<integer>120</integer>
 		<key>Zoom</key>
-		<real>0.5</real>
+		<real>1</real>
 		<key>ZoomValues</key>
 		<array>
 			<array>
 				<string>Canvas 1</string>
-				<real>0.5</real>
 				<real>1</real>
+				<real>0.5</real>
 			</array>
 		</array>
 	</dict>
