@@ -118,8 +118,8 @@
 			<integer>136</integer>
 			<key>Points</key>
 			<array>
-				<string>{1536.66428714413, 669.68104439919375}</string>
-				<string>{1305.6449231332604, 478.31895560080631}</string>
+				<string>{1536.7453693420491, 669.67925620072685}</string>
+				<string>{1295.9475176895369, 468.32074683146612}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -497,7 +497,7 @@ int getOver50ApproachSpdKts()\
 			<array>
 				<string>{2063.7783674202828, 583.66719256403621}</string>
 				<string>{1776, 327}</string>
-				<string>{1306.4985247823233, 363.14572026780439}</string>
+				<string>{1297.9991200493585, 355.3960918782559}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -626,7 +626,7 @@ double getGlideDistanceNM()\
 			<array>
 				<string>{1927.4365418689365, 698.53751813472059}</string>
 				<string>{1786, 354}</string>
-				<string>{1306.4997556291869, 368.99671546180321}</string>
+				<string>{1297.9999466545933, 361.12987090926725}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -798,7 +798,7 @@ double getDescentDistanceNM()\
 			<array>
 				<string>{283.21984727370813, 249.86877780193103}</string>
 				<string>{621, 158}</string>
-				<string>{1050.5334891477319, 323.64968639778004}</string>
+				<string>{1042.0315904281297, 315.21580334748006}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -926,7 +926,7 @@ int getBestEconomyEnduranceMinutes(int RPM, int powerPCT)\
 			<array>
 				<string>{276.3032099558132, 429.82581234262557}</string>
 				<string>{631, 298}</string>
-				<string>{1050.5046263111553, 355.46638716591173}</string>
+				<string>{1042.0035965237407, 347.56444113922663}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -1052,8 +1052,8 @@ int getBestEconomyRangeNM(int RPM, int powerPCT)\
 			<integer>105</integer>
 			<key>Points</key>
 			<array>
-				<string>{1178.5063115161595, 633.50000019486049}</string>
-				<string>{1178.636749520706, 478.4999995664673}</string>
+				<string>{1178.2709400444965, 633.50023304344768}</string>
+				<string>{1173.2314501584315, 468.49976562303794}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -1181,7 +1181,7 @@ int getBestEconomyFuelFlowGPH(int RPM, int powerPCT)\
 			<array>
 				<string>{272.0508578698541, 609.7838352678782}</string>
 				<string>{622, 442}</string>
-				<string>{1050.5037995808718, 388.87014883902935}</string>
+				<string>{1042.0051159773088, 381.45181722224925}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -1309,7 +1309,7 @@ int getBestEconomyTASKts(int RPM, int powerPCT)\
 			<array>
 				<string>{306.89150501091075, 747.76919417735382}</string>
 				<string>{861.03330993652344, 459.32518606982217}</string>
-				<string>{1050.5175192239976, 407.80085253812547}</string>
+				<string>{1042.02266032697, 402.89893232242218}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -1433,9 +1433,9 @@ double getBestEconomyManifoldPressure(int rpm, int powerPCT)}</string>
 			<integer>81</integer>
 			<key>Points</key>
 			<array>
-				<string>{1714.5941889748378, 521.65979703406265}</string>
+				<string>{1731.1343056572496, 527.67050557215998}</string>
 				<string>{1552.500244140625, 371.16259303491108}</string>
-				<string>{1306.4999939646552, 372.37115527562713}</string>
+				<string>{1297.9998861834893, 365.73153022889744}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -1464,7 +1464,7 @@ double getBestEconomyManifoldPressure(int rpm, int powerPCT)}</string>
 			<array>
 				<dict>
 					<key>Bounds</key>
-					<string>{{1602, 522}, {241, 14}}</string>
+					<string>{{1619, 528}, {241, 14}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -1500,7 +1500,7 @@ double getBestEconomyManifoldPressure(int rpm, int powerPCT)}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{1602, 536}, {241, 14}}</string>
+					<string>{{1619, 542}, {241, 14}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -1538,7 +1538,7 @@ double getBestEconomyManifoldPressure(int rpm, int powerPCT)}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{1602, 550}, {241, 98}}</string>
+					<string>{{1619, 556}, {241, 98}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -1857,8 +1857,8 @@ int getOver50LiftOffSpdKts()\
 			<integer>64</integer>
 			<key>Points</key>
 			<array>
-				<string>{782.50383728575321, 661.70541063552776}</string>
-				<string>{1050.595928380787, 466.21825300392572}</string>
+				<string>{781.98969207926643, 661.69500745699065}</string>
+				<string>{1042.1038111009298, 461.46388468576794}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -1984,7 +1984,7 @@ int getLiftOffSpd()}</string>
 			<array>
 				<string>{1482.6910892310998, 443.60684083958148}</string>
 				<string>{1450, 402}</string>
-				<string>{1306.497171860063, 386.67188944361629}</string>
+				<string>{1297.9952193207998, 380.82790554825425}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -2105,7 +2105,7 @@ int getLiftOffSpd()}</string>
 			<array>
 				<dict>
 					<key>Bounds</key>
-					<string>{{1051, 128}, {255, 14}}</string>
+					<string>{{1042.5, 118}, {255, 14}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -2141,7 +2141,7 @@ int getLiftOffSpd()}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{1051, 142}, {255, 126}}</string>
+					<string>{{1042.5, 132}, {255, 126}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -2187,7 +2187,7 @@ private int axisWindKts\
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{1051, 268}, {255, 210}}</string>
+					<string>{{1042.5, 258}, {255, 210}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -2219,7 +2219,7 @@ private int axisWindKts\
 \f0\fs24 \cf0 void setOATC(int oat)\
 int getOATC()\
 void setWeightLb(int weight)\
-int getWeightLb(int weight)\
+int getWeightLb()\
 void setGearDown(boolean gear)\
 boolean getGearDown()\
 void setFlapsSetting(int flaps)\
@@ -2229,7 +2229,7 @@ int getTasKts()\
 void setAltitudeFt(int alt)\
 int getAltitudeFt()\
 void setAxisWindKts(int wind)\
-int getAxisWindKts(int wind)\
+int getAxisWindKts()\
 }</string>
 						<key>VerticalPad</key>
 						<integer>0</integer>
@@ -2296,7 +2296,7 @@ int getAxisWindKts(int wind)\
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2017-05-14 23:21:24 +0000</string>
+	<string>2017-05-16 12:15:41 +0000</string>
 	<key>Modifier</key>
 	<string>Menai, Alex</string>
 	<key>NotesVisible</key>
@@ -2389,13 +2389,13 @@ int getAxisWindKts(int wind)\
 		<key>SidebarWidth</key>
 		<integer>120</integer>
 		<key>Zoom</key>
-		<real>1</real>
+		<real>2</real>
 		<key>ZoomValues</key>
 		<array>
 			<array>
 				<string>Canvas 1</string>
+				<real>2</real>
 				<real>1</real>
-				<real>0.5</real>
 			</array>
 		</array>
 	</dict>
