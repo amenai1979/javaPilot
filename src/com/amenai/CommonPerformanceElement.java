@@ -65,7 +65,12 @@ public class CommonPerformanceElement {
     int getAxisWindKts(){
         return axisWindKts;
     }
+
     int calculateDensityAltitude(int pressAltitudeFt){
+        //calculates the desnity altitude based on the pressure altitude
+        //this method presumes that isaTemp is in degrees celcius.
+        //for non aviators: the stanrd temperature lapse rate is -2 degrees celcius every 1000 feet of height.
+        //the standard temperature at sea level is 15 degrees celcius.
         int isaTemp=15-2*(pressAltitudeFt/2000);
         int densityAltitude=pressAltitudeFt+120*(oatC-isaTemp);
         return densityAltitude;
