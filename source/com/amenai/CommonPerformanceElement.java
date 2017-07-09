@@ -4,13 +4,13 @@ package com.amenai;
  * Created by amenai on 5/14/17.
  */
 public class CommonPerformanceElement {
-    private int oatC=15;
-    private int weightLb=0;
-    private boolean gearDown=true;
-    private int flapsSetting=25;
-    private int tasKts=0;
-    private int altitudeFt=0;
-    private int axisWindKts=0;
+    int oatC=15;
+    int weightLb=2450;
+    boolean gearDown=true;
+    int flapsSetting=25;
+    int tasKts=130;
+    int altitudeFt=132;
+    int axisWindKts=0;
     void setOatC(int oat){
         oatC=oat;
     }
@@ -65,6 +65,29 @@ public class CommonPerformanceElement {
     int getAxisWindKts(){
         return axisWindKts;
     }
+
+    //constructors
+    CommonPerformanceElement(){
+        //just takes the defaults
+    }
+    CommonPerformanceElement(int oat, int weight, int tas, int altitude, int axisWind){
+        try {
+            setAltitudeFt(altitude);
+            setAxisWindKts(axisWind);
+            setOatC(oat);
+            setTasKts(tas);
+            setWeightLb(weightLb);
+        }
+        catch (Exception exception){
+            //log the error
+            //call the default construtor
+            //CommonPerformanceElement();
+            System.out.println("unable to initiate CommonPerformanceElement instance with parameters");
+            System.out.println("initializing with defaults");
+        }
+
+    }
+
 
     int calculateDensityAltitude(int pressAltitudeFt){
         //calculates the desnity altitude based on the pressure altitude
